@@ -1,0 +1,13 @@
+{
+    "manifest_version": 3,
+    "name": "Custom Video Speed Controller",
+    "version": "1.0.0",
+    "description": "Control the playback speed of HTML5 videos",
+    "content_scripts": [
+        {
+            "matches": ["<all_urls>"], 
+            "js": ["content_script.js"]
+        }
+    ],
+    "permissions": ["activeTab"]
+}

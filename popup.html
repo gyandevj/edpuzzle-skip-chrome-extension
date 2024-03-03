@@ -3,12 +3,12 @@
 <head>
     <title>Custom Video Speed</title>
     <style>
-        body { width: 200px; }
+        body { width: 250px; } 
     </style>
 </head>
 <body>
-    <input type="number" id="speedInput" value="1.0">
-    <button id="applyButton">Apply</button>
+    <input type="range" id="speedSlider" min="0.5" max="2" step="0.05" value="1.0">
+    <span id="currentSpeed">1.0x</span> 
     <script src="popup.js"></script>
 </body>
 </html>
